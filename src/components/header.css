@@ -1,3 +1,8 @@
 .header-wrapper{
     background-color: blue;
 }
+
+img{
+    width: 100vw;
+    height: 80vh;
+}
