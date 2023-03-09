@@ -3,6 +3,11 @@ import MenuItem, { ItemMenu } from './MenuItem'
 import './navbar.css'
 
 export default class Navbar extends Component {
+
+  state = {
+     cliked : false ,
+     
+  }
   render() {
     return (
       <nav className='nav-wrapper'>
@@ -18,6 +23,7 @@ export default class Navbar extends Component {
             {ItemMenu.map( (item,index) => {
               return <li className={item.cName} key={index}><a href={item.url}>{item.title}</a></li>
             })}
+
           </ul>
 
           
