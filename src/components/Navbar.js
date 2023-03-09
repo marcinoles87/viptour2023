@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import MenuItem, { ItemMenu } from './MenuItem'
-import './navbar.css'
+import './navbar.scss'
 
 export default class Navbar extends Component {
 

@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 
+import './news.scss'
+
 export default class News extends Component {
   render() {
     return (
@@ -7,7 +9,7 @@ export default class News extends Component {
         <div className='news-info'>
             <h1>Title</h1>
                 <p>Information</p>
-                <a>Link</a>
+                <a href='#'>Link</a>
         </div>
       </div>
     )

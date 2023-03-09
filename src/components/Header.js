@@ -2,9 +2,9 @@ import React, { Component } from 'react'
 
 import headerImg from '../img/header.jpg'
 
-import './header.css'
+import './header.scss'
 
-export default class cla  extends Component {
+export default class Header  extends Component {
   render() {
     return (
       <div className='header-wrapper'>
