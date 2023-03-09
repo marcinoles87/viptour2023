@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import MenuItem from './MenuItem'
 import './navbar.css'
 
 export default class Navbar extends Component {
@@ -11,6 +12,9 @@ export default class Navbar extends Component {
         </div>
 
         <div className='nav-menu'>
+
+          <MenuItem></MenuItem>
+            
             
 
         </div>
