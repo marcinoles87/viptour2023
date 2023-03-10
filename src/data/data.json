@@ -1,6 +1,23 @@
+
+
 [
-    { "name" : "menu" ,
-     "cName" : "nav-item-menu"
-     
+    { "name" : "auschwitz" ,
+     "cName" : "trip-card" ,
+     "image" : "" 
+}
+
+{ "name" : "salt-mine" ,
+"cName" : "trip-card" ,
+"image" : {} 
+}
+
+{ "name" : "zakopane" ,
+"cName" : "trip-card" ,
+"image" : {} 
+}
+
+{ "name" : "czestochowa" ,
+"cName" : "trip-card" ,
+"image" : {} 
 }
 ]
