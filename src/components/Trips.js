@@ -8,8 +8,9 @@ export default class Trips extends Component {
       <div className='trips-wrapper'>Trips
         <div className='trips-card'>
             {JSONDATA.map( (item , index) => {
-                return <ul>
-                    <li>{item.name}</li>
+                return <ul className={item.cName}>
+                    <h1>{item.name}</h1>
+                    <img src={item.img}></img>
                 </ul>
             })}
         </div>
