@@ -5,6 +5,7 @@ import Header from './components/Header';
 import './App.css';
 import News from './components/News';
 import Trips from './components/Trips';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Header></Header>
       <News></News>
       <Trips></Trips>
+      <Contact></Contact>
     </div>
   );
 }
