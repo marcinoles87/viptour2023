@@ -11,8 +11,8 @@ export default class Trips extends Component {
                 return <ul className={item.cName} key={item.index}>
                     <h1>{item.name}</h1>
                     <img src={item.img}></img>
-                    <h3> Trip time :</h3>
-                    <h4> Persone : </h4>
+                    <h3> Trip time : </h3>
+                    <h4> Persone :{item.persone} </h4>
                     <h4> Price :</h4>
                 </ul>
             })}

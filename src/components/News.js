@@ -10,6 +10,7 @@ export default class News extends Component {
             <h1>Title</h1>
                 <p>Information</p>
                 <a href='#'>Link</a>
+                
         </div>
       </div>
     )
