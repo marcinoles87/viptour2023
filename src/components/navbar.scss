@@ -1,10 +1,9 @@
 @media (max-width : 360px){
 
 .nav-wrapper{
-    margin-bottom: 30px;
-    background-color:white;
     display: flex;
     flex-direction: column;
+    background-color:white;
 
     h1{
         font-size: 40px;
@@ -40,4 +39,3 @@
 }
 
 
-}
