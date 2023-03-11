@@ -16,7 +16,7 @@ export default class Navbar extends Component {
       <nav className='nav-wrapper'>
 
         <div className='nav-logo'>
-            <h1>Name</h1>
+            <h1>Vip Tour Cracow  </h1>
             <img className='nav-logo-img' src={logo} alt='logo'></img>
         </div>
 
