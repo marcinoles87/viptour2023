@@ -1,5 +1,8 @@
 import React, { Component } from 'react'
+
 import MenuItem, { ItemMenu } from './MenuItem'
+import logo from '../img/logo.png'
+
 import './navbar.scss'
 
 export default class Navbar extends Component {
@@ -14,7 +17,7 @@ export default class Navbar extends Component {
 
         <div className='nav-logo'>
             <h1>Name</h1>
-            <img className='nav-logo-img' src='#' alt='logo'></img>
+            <img className='nav-logo-img' src={logo} alt='logo'></img>
         </div>
 
         <div className='nav-menu'>
