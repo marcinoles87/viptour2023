@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import JSONDATA from '../data/data.json'
+import JSONDATA from '../data.json'
 
 import './trips.scss'
 
@@ -10,18 +10,10 @@ export default class Trips extends Component {
       <div className='trips-wrapper'>
         <h1>Trips</h1>
         <div className='trips-card'>
-            {JSONDATA.map( item => {
-                return(
-                 <ul className={item.cName} key={item.index}>
-                  
-                    <h1>{item.name}</h1>
-                    <img src={item.im} alt='trips'></img>
-                    <h3> Trip time : </h3>
-                    <h4> Persone :{item.persone} </h4>
-                    <h4> Price :</h4>
-                  
-                </ul>)
-            })}
+            {JSONDATA && JSONDATA.map( (item) => 
+              <img src={item.im} alt=""></img>
+            ) }
+
         </div>
       </div>
     )
