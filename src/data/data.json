@@ -4,27 +4,27 @@
 [
     { "name" : "auschwitz" ,
      "cName" : "trip-card", 
-     "img"  : "../img/header.jpg" ,
+     "im"  : "../img/logo.png" ,
      "persone" : "4"
 },
 
 { "name" : "salt-mine" ,
 "cName" : "trip-card" ,
-"img"  : "../img/header.jpg",
+"im"  : "./logo.png",
 "persone" : "4"
 
 },
 
 { "name" : "zakopane" ,
 "cName" : "trip-card",
-"img"  : "../img/header.jpg",
+"im"  : "./logo.png",
 "persone" : "4"
 
 },
 
 { "name" : "czestochowa" ,
 "cName" : "trip-card" ,
-"img"  : "../img/header.jpg",
+"im"  : "./logo.png",
 "persone" : "4"
 
 }
