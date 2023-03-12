@@ -7,27 +7,31 @@
     { "name" : "auschwitz" ,
      "cName" : "trip-card", 
      "im"  : "img/logo.png" ,
-     "persone" : "4"
+     "persone" : "4",
+     "price" : "10 euro"
 },
 
 { "name" : "salt-mine" ,
 "cName" : "trip-card" ,
 "im"  : "img/logo.png" ,
-"persone" : "4"
+"persone" : "4",
+"price" : "10 euro"
 
 },
 
 { "name" : "zakopane" ,
 "cName" : "trip-card",
 "im"  : "img/logo.png" ,
-"persone" : "4"
+"persone" : "4",
+"price" : "10 euro"
 
 },
 
 { "name" : "czestochowa" ,
 "cName" : "trip-card" ,
 "im"  : "img/logo.png" ,
-"persone" : "4"
+"persone" : "4",
+"price" : "10 euro"
 
 }
 ]

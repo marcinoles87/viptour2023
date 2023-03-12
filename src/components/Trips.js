@@ -10,11 +10,11 @@ export default class Trips extends Component {
       <div className='trips-wrapper'>
         <h1>Trips</h1>
         <div className='trips-card'>
-            {JSONDATA && JSONDATA.map( (item) => 
-            <div className='trip-info'>
+            {JSONDATA && JSONDATA.map( (item , index) => 
+            <div className='trip-info ' key={index}>
               <h1>{item.name}</h1>
               <img src={item.im} alt=""></img>
-              <p>Price : {item.cName}</p>
+              <p>Price : {item.price}</p>
               <p>Persone :{item.persone}</p>
               </div>
             ) }
