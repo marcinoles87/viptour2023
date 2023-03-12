@@ -1,5 +1,8 @@
 .trips-wrapper{
-    background-color: gray;
+
+    img{
+        height: 50vh;
+    }
 
     h1{
         color: white;
@@ -7,9 +10,22 @@
 
     .trips-card{
         
+        border: 1px solid black;
+        
         h1{
-            color: black;
-            text-decoration: underline;
+            
+            text-transform: uppercase;
+
+        }
+
+        .trip-info{
+            color:white;
+            background-color: rgb(37, 37, 87);
+            border-bottom: 2px solid green;
+
+            p{
+                font-size: 20px;
+            }
         }
     }
 }
