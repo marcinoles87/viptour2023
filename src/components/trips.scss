@@ -1,8 +1,6 @@
 .trips-wrapper{
 
-    img{
-        height: 50vh;
-    }
+  
 
     h1{
         color: white;
@@ -19,12 +17,19 @@
         }
 
         .trip-info{
+            margin-bottom: 10px;
             color:white;
             background-color: rgb(37, 37, 87);
-            border-bottom: 2px solid green;
+            
+
+
+            img{
+                height: 50vh;
+            }
 
             p{
                 font-size: 20px;
+                
             }
         }
     }
