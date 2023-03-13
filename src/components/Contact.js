@@ -10,9 +10,9 @@
        <div className='contact-wrapper'>
             <div className='contact-link'>
                 <h1 id='contact'>We are on </h1>
-                    <a href='#'><img src={faceLogo}></img></a>
-                    <a href='#'><img src={tripLogo}></img></a>
-                    <a href='#'><img src={instagramLogo}></img></a>
+                    <a href='#'><img src={faceLogo} alt='facebook'></img></a>
+                    <a href='#'><img src={tripLogo} alt='tripadvisor'></img></a>
+                    <a href='#'><img src={instagramLogo} alt='instagram'></img></a>
                     
                     <h2>TripAdvisor</h2>
                     <h2>Instagram</h2>
