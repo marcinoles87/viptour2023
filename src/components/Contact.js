@@ -1,4 +1,6 @@
  import React, { Component } from 'react'
+
+ import faceLogo from '../img/faceLogo.png'
  
  export default class Contact extends Component {
    render() {
@@ -6,7 +8,8 @@
        <div className='contact-wrapper'>
             <div className='contact-link'>
                 <h1 id='contact'>We are on </h1>
-                    <h2>Facebook</h2>
+                    <img src={faceLogo}></img>
+                    }
                     <h2>TripAdvisor</h2>
                     <h2>Instagram</h2>
             </div>
