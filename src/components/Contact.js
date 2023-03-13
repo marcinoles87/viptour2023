@@ -5,7 +5,7 @@
      return (
        <div className='contact-wrapper'>
             <div className='contact-link'>
-                <h1>We are on </h1>
+                <h1 id='contact'>We are on </h1>
                     <h2>Facebook</h2>
                     <h2>TripAdvisor</h2>
                     <h2>Instagram</h2>

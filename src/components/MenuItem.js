@@ -13,7 +13,7 @@ export const ItemMenu = [
     
     {
       title: 'Contact',
-      url: '#',
+      url: '#contact',
       cName : 'nav-link'
     } ,
   
