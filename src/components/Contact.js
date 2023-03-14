@@ -16,11 +16,11 @@
                     <a href='https://www.auschwitzsaltmine.com'><img src={tripLogo} alt='tripadvisor'></img></a>
                     <a href='https://www.auschwitzsaltmine.com'><img src={instagramLogo} alt='instagram'></img></a>
                     
-                    <h2>TripAdvisor</h2>
-                    <h2>Instagram</h2>
+                   
             </div>
 
             <div className='contact-message'>
+              <h1>Have a question :</h1>
               <input placeholder='name'></input>
               <input placeholder='choose trip'></input>
               <input placeholder='choose date'></input>
