@@ -3,16 +3,18 @@
  import faceLogo from '../img/faceLogo.png'
  import tripLogo from '../img/trip.jpg'
  import instagramLogo from '../img/instagramLogo.jpg'
+
+ import './contact.scss'
  
  export default class Contact extends Component {
    render() {
      return (
-       <div className='contact-wrapper'>
+       <div className='contact-wrapper' id='contact'>
             <div className='contact-link'>
-                <h1 id='contact'>We are on </h1>
-                    <a href='#'><img src={faceLogo} alt='facebook'></img></a>
-                    <a href='#'><img src={tripLogo} alt='tripadvisor'></img></a>
-                    <a href='#'><img src={instagramLogo} alt='instagram'></img></a>
+                <h1>We are on </h1>
+                    <a  href='https://www.auschwitzsaltmine.com'><img src={faceLogo} alt='facebook'></img></a>
+                    <a href='https://www.auschwitzsaltmine.com'><img src={tripLogo} alt='tripadvisor'></img></a>
+                    <a href='https://www.auschwitzsaltmine.com'><img src={instagramLogo} alt='instagram'></img></a>
                     
                     <h2>TripAdvisor</h2>
                     <h2>Instagram</h2>
