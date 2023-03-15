@@ -1,6 +1,7 @@
 $primary-color: rgb(37, 37, 87);
 
-
+@media (max-width : 400px){
+    
 .contact-wrapper{
     height: 100vh;
 
@@ -57,4 +58,6 @@ $primary-color: rgb(37, 37, 87);
         }
 
      }
+}
+
 }

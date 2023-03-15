@@ -10,6 +10,7 @@ export default class Header  extends Component {
       <div className='header-wrapper'>
         <h1>Your Trip Start Now</h1>
         {/* <img src={headerImg} alt="trip"></img> */}
+        <p>See and relax with our driver and trip...</p>
       </div>
     )
   }
