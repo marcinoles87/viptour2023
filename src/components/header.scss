@@ -1,5 +1,10 @@
 .header-wrapper{
     background-color: rgb(38, 38, 58);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 img{

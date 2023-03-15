@@ -1,23 +1,29 @@
+$primary-color: rgb(37, 37, 87);
+
 @media (max-width : 360px){
 
 .nav-wrapper{
     display: flex;
     flex-direction: column;
-    background-color:white;
+    justify-content: center;
+    align-items: center;
+    
 
     h1{
         font-size: 40px;
     }
 
     .nav-logo-img{
-        width: 50px;
-        height: 50px;
+        width: 60px;
+        height: 60px;
     }
 
     .nav-menu{
 
-        background-color: rgb(38, 38, 58);
+        background-color: $primary-color;
         color:white;
+        width: 100vw;
+        text-align: center;
 
         .nav-menu-list li a{
             color: white;
@@ -32,7 +38,7 @@
     
         .nav-menu-list li a:hover{
             color: white;
-            border: 1px solid white;
+            border-bottom: 1px solid white;
             font-size: 35px;
         }
     }
