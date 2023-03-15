@@ -10,8 +10,10 @@
    render() {
      return (
        <div className='contact-wrapper' id='contact'>
+
+        <h1>We are on </h1>
             <div className='contact-link'>
-                <h1>We are on </h1>
+                
                     <a  href='https://www.auschwitzsaltmine.com'><img src={faceLogo} alt='facebook'></img></a>
                     <a href='https://www.auschwitzsaltmine.com'><img src={tripLogo} alt='tripadvisor'></img></a>
                     <a href='https://www.auschwitzsaltmine.com'><img src={instagramLogo} alt='instagram'></img></a>

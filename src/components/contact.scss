@@ -4,6 +4,11 @@ $primary-color: rgb(37, 37, 87);
 .contact-wrapper{
     height: 100vh;
 
+    .contact-link{
+        display: flex;
+        flex-direction: row;
+    }
+
     h1{
         margin-bottom: 30px;
         color: white;
