@@ -8,8 +8,8 @@ export default class Header  extends Component {
   render() {
     return (
       <div className='header-wrapper'>
-        <h1>Some Information to Welcome</h1>
-        <img src={headerImg} alt="trip"></img>
+        <h1>Your Trip Start Now</h1>
+        {/* <img src={headerImg} alt="trip"></img> */}
       </div>
     )
   }

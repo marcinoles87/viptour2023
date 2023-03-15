@@ -18,6 +18,8 @@ export default class Navbar extends Component {
         <div className='nav-logo'>
             <h1>Vip Tour Cracow  </h1>
             <img className='nav-logo-img' src={logo} alt='logo'></img>
+
+            <p>we drive you relax and trip</p>
         </div>
         
 
