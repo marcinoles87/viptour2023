@@ -15,7 +15,7 @@ export default class News extends Component {
                    ię w latach 60. XX w. wraz z publikacją arkuszy Letrasetu, zawierających fragmenty Lorem 
                    Ipsum, a ostatnio z zawierającym różne wersje Lorem Ipsum oprogramowaniem przeznaczonym do 
                    realizacji druków na komputerach osobistych, jak Aldus PageMaker</p>
-                <a href='#'>Link</a>
+                <a href='.contact'>Link</a>
                 
         </div>
       </div>
