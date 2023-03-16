@@ -23,10 +23,11 @@
 
             <div className='contact-message'>
               <h1>Have a question :</h1>
-              <input placeholder='name'></input>
-              <input placeholder='choose trip'></input>
-              <input placeholder='choose date'></input>
-              <textarea placeholder='send message'></textarea>
+              <input type='text' placeholder='name'></input>
+              <input type='email'placeholder='email'></input>
+              <input type='checkbox' placeholder='choose trip' value='Zakopane' name='Zakopane' id=''></input><label for='Zakopane'>Zakopane</label>
+              <input type='date' placeholder='choose date'></input>
+              <textarea type='text' placeholder='send message'></textarea>
               <button>Send</button>
 
             </div>

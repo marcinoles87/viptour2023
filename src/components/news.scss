@@ -7,15 +7,23 @@
 
     .news-info{
         text-align: center;
+        padding-top: 20px;
     }
     a{
+        display: inline-block;
+        width: 100px;
         margin: 10px;
         text-align: center;
         color: white;
         font-size: 30px;
         border: 1px solid white;
         text-decoration: none;
-        padding: 10px;
+        transition: 0.5s;
+        
+    }
+
+    a:hover{
+        width: 110px;
     }
 }
 
