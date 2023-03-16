@@ -5,7 +5,7 @@ import './footer.scss'
 export default class Footer extends Component {
   render() {
     return (
-      <div>
+      
             <div className='footer-wrapper'>
                 <h1>Site Map</h1>
                 <ul>
@@ -16,7 +16,7 @@ export default class Footer extends Component {
                     <li>Contact</li>
                 </ul>
             </div>
-      </div>
+      
     )
   }
 }

@@ -8,7 +8,9 @@ $primary-color: rgb(37, 37, 87);
     }
     
 .contact-wrapper{
-    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    height: auto;
 
     .contact-link{
         display: flex;
