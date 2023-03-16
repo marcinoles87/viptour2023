@@ -25,7 +25,9 @@
               <h1>Have a question :</h1>
               <input type='text' placeholder='name'></input>
               <input type='email'placeholder='email'></input>
-              <input type='checkbox' placeholder='choose trip' value='Zakopane' name='Zakopane' id=''></input><label for='Zakopane'>Zakopane</label>
+              <input type='checkbox' placeholder='choose trip' value='Zakopane' name='Zakopane' id='inp'></input><label htmlFor='Zakopane'>Zakopane</label>
+              <input type='checkbox' placeholder='choose trip' value='Czestochowa' name='Zakopane' id='inp'></input><label htmlFor='Zakopane'>Czestochowa</label>
+              <input type='checkbox' placeholder='choose trip' value='Auschwitz' name='Zakopane' id='inp'></input><label htmlFor='Zakopane'>Auschwitz</label>
               <input type='date' placeholder='choose date'></input>
               <textarea type='text' placeholder='send message'></textarea>
               <button>Send</button>
