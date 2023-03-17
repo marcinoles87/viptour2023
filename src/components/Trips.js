@@ -16,6 +16,7 @@ export default class Trips extends Component {
               <img src={item.im} alt=""></img>
               <p>Price : {item.price}</p>
               <p>Persone :{item.persone}</p>
+              <p>Trip Time : {item.time}</p>
               </div>
             ) }
             

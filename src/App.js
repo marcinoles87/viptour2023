@@ -1,12 +1,12 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import Header from './components/Header';
-
-import './App.css';
 import News from './components/News';
 import Trips from './components/Trips';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+
+import './App.css';
 
 function App() {
   return (

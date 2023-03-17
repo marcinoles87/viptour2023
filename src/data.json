@@ -8,14 +8,17 @@
      "cName" : "trip-card", 
      "im"  : "img/czestocchowa.jpg" ,
      "persone" : "4",
-     "price" : "10 euro"
+     "price" : "10 euro",
+     "time" : "2h 30min"
 },
 
 { "name" : "salt-mine" ,
 "cName" : "trip-card" ,
 "im"  : "img/zakopane.jpg" ,
 "persone" : "4",
-"price" : "10 euro"
+"price" : "10 euro",
+"time" : "2h 30min"
+
 
 },
 
@@ -23,7 +26,8 @@
 "cName" : "trip-card",
 "im"  : "img/zakopane.jpg" ,
 "persone" : "4",
-"price" : "10 euro"
+"price" : "10 euro",
+"time" : "2h 30min"
 
 },
 
@@ -31,7 +35,8 @@
 "cName" : "trip-card" ,
 "im"  : "img/czestocchowa.jpg" ,
 "persone" : "4",
-"price" : "10 euro"
+"price" : "10 euro",
+"time" : "2h 30min"
 
 }
 ]
