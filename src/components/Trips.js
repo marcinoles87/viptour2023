@@ -6,10 +6,22 @@ import './trips.scss'
 
 export default class Trips extends React.Component {
 
-  handleOnClick = () => {
+  state = [
+    {cliked : false,
+    }
+  ]
 
-  }
   render() {
+
+    const handleOnClick = () => {
+      
+          this.setState({
+            cliked: !this.state.cliked
+          }
+      )
+
+      console.log(this.state.cliked)
+    }
     return (
       <div className='trips-wrapper'>
         <h1>Trips</h1>
@@ -21,6 +33,7 @@ export default class Trips extends React.Component {
               <div className='trips-btn'>
                 <button onClick={handleOnClick}>Info</button>
               </div>
+              
               
               <p>Price : {item.price}</p>
               <p>Persone :{item.persone}</p>
