@@ -34,10 +34,8 @@ export default class Trips extends React.Component {
                 <button onClick={handleOnClick}>Info</button>
               </div>
               
-              
-              <p>Price : {item.price}</p>
-              <p>Persone :{item.persone}</p>
-              <p>Trip Time : {item.time}</p>
+              {this.state.cliked ? <p>Price : {item.price} Persone :{item.persone} Trip Time : {item.time}</p>: null}
+             
               </div>
             ) }
             
