@@ -4,7 +4,11 @@ import JSONDATA from '../data.json'
 
 import './trips.scss'
 
-export default class Trips extends Component {
+export default class Trips extends React.Component {
+
+  handleOnClick = () => {
+
+  }
   render() {
     return (
       <div className='trips-wrapper'>
@@ -14,6 +18,10 @@ export default class Trips extends Component {
             <div className='trip-info ' key={index}>
               <h1>{item.name}</h1>
               <img src={item.im} alt=""></img>
+              <div className='trips-btn'>
+                <button onClick={handleOnClick}>Info</button>
+              </div>
+              
               <p>Price : {item.price}</p>
               <p>Persone :{item.persone}</p>
               <p>Trip Time : {item.time}</p>

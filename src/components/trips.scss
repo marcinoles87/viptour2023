@@ -4,9 +4,6 @@
 
 
 
-
-  
-
     h1{
         color: white;
     }
@@ -14,6 +11,9 @@
     .trips-card{
         
         border: 1px solid black;
+
+
+
         
         h1{
             
@@ -26,8 +26,6 @@
             color:white;
             background-color: rgb(37, 37, 87);
             
-
-
             img{
                 height: 50vh;
                 width: 100vw;
@@ -37,6 +35,14 @@
                 font-size: 20px;
                 
             }
+
+            
+        .trips-btn{
+           
+            width: 100px;
+            height: 30px;
+        }
+
         }
     }
 }
