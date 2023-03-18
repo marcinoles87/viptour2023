@@ -20,8 +20,6 @@ export default class Trips extends React.Component {
             cliked: !this.state.cliked
           }
       )
-
-      console.log(this.state.cliked)
     }
     return (
       <div className='trips-wrapper'>
