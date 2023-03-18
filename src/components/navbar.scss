@@ -1,5 +1,23 @@
 $primary-color: rgb(37, 37, 87);
 
+@media (min-width : 401px){
+
+    .nav-wrapper{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 100px;
+       
+    
+
+
+
+    }
+}
+
+
+    
+
 @media (max-width : 400px){
 
 .nav-wrapper{
