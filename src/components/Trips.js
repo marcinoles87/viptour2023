@@ -7,7 +7,8 @@ import './trips.scss'
 export default class Trips extends React.Component {
 
   state = [
-    {cliked : false,
+    {
+      cliked : false,
     }
   ]
 
@@ -34,7 +35,7 @@ export default class Trips extends React.Component {
                 <button onClick={handleOnClick}>Info</button>
               </div>
               
-              {this.state.cliked ? <p>Price : {item.price} Persone :{item.persone} Trip Time : {item.time}</p>: null}
+              {this.state.cliked ?<div> <p>Price : {item.price} Persone :{item.persone} Trip Time : {item.time}</p> </div>: null }
              
               </div>
             ) }
