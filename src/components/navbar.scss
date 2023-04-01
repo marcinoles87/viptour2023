@@ -5,16 +5,19 @@ $primary-color: rgb(37, 37, 87);
     .nav-wrapper{
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
-        height: 100px;
+        flex-wrap: nowrap;
+        height: auto;
+
        
     
     .nav-logo{
         display: flex;
         flex-direction: row;
         flex-basis: 100vw;
-        flex-wrap: wrap;
-        height: 10vh;
+        flex-wrap: nowrap;
+        height: 60px;
+        background-color: $primary-color;
+        color: white;
 
         img{
             width: 50px;
