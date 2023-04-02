@@ -23,7 +23,7 @@ export default class Trips extends React.Component {
     }
     return (
       <div className='trips-wrapper'>
-        <h1>Trips</h1>
+        <h1></h1>
         <div className='trips-card'>
             {JSONDATA && JSONDATA.map( (item , index) => 
             <div className='trip-info ' key={index}>

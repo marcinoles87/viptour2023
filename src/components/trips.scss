@@ -13,23 +13,45 @@ $gradient : linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
 }
 
 .trips-card{
+    
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+
+    h1{
+        text-transform: capitalize;
+        text-decoration: underline;
+    }
     
 
     img{
-        height: 500px;
-        width: 500px;
+        height: 600px;
+        width: 600px;
     }
     
 }
 
 .trip-info{
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
     width: 40vw;
+    align-items: center;
+
+    button{
+        background : orange;
+        color: white;
+        border: none;
+        margin-top: 10px;
+        font-size: 30px;
+        width: 50px;
+        transition: 0.5s ease;
+    }
+
+    button:hover{
+        background: yellow;
+    }
 }
 
 }
