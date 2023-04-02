@@ -4,6 +4,7 @@ $gradient : linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
 @media (min-width : 401px){
 
     .nav-wrapper{
+        
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
@@ -31,8 +32,8 @@ $gradient : linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
         }
 
         img{
-            width: 50px;
-            height: 50px;
+            width: 60px;
+            height: 60px;
         }
         
     }
@@ -51,6 +52,7 @@ $gradient : linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
         ul{
             display: flex;
             list-style-type: none;
+            letter-spacing: 5px;
 
             li{
                 margin-right: 10px;
