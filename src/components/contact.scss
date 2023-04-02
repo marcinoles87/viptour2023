@@ -1,5 +1,36 @@
 $primary-color: rgb(37, 37, 87);
 
+@media  (min-width: 401px){
+
+    .contact-wrapper{
+      
+
+        .contact-link{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content:space-evenly;
+            height: 70vh;
+
+            a{
+                
+                width: 200px;
+                
+
+                img{
+                    width: 90%;
+                    height: 90%;
+                }
+
+            }
+
+           
+        }
+    }
+    
+}
+
+
 @media (max-width : 400px){
 
     #inp{
