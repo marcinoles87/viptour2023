@@ -7,7 +7,20 @@ $gradient : linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
     margin-top:50px;
     background: $gradient;
     color:white;
+    text-align: center;
 
+
+    a{
+        font-size: 30px;
+        color: white;
+        text-decoration: none;
+        transition: 0.7s ease;
+    }
+
+    a:hover{
+        font-size: 35px;
+        text-decoration: underline;
+    }
    
 }
 
