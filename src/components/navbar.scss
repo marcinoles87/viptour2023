@@ -1,10 +1,12 @@
-$primary-color: rgb(37, 37, 87);
+$primary-color: rgb(43, 43, 158);
 $gradient : linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
 
 @media (min-width : 401px){
 
     .nav-wrapper{
         
+        position:fixed;
+        width: 100vw;
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
@@ -17,22 +19,19 @@ $gradient : linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
         flex-direction: row;
         flex-basis: 100vw;
         flex-wrap: nowrap;
-        height: 60px;
+        height: 65px;
         background-color: $primary-color;
         color: white;
 
         h1{
             font-size: 30px;
-            margin-right: 30px;
+            margin-left: 20px;
+            padding-top: 10px;
         }
 
-        p{
-            font-size:20px;
-            margin-left: 30px;
-        }
-
+      
         img{
-            width: 60px;
+            width: 70px;
             height: 60px;
         }
         
@@ -42,9 +41,11 @@ $gradient : linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
         display: flex;
         flex-direction: row;
         flex-basis: 100vw;
+        padding-right: 30px;
+        padding-top: 10px;
         justify-content: flex-end;
         background-color: $primary-color;
-        height: 60px;
+        height: 65px;
        
 
 
@@ -70,10 +71,11 @@ $gradient : linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
 
         
         .nav-menu-list li a:hover{
-            padding: 2px;
+            
             color: white;
             border-bottom: 1px solid white;
             font-size: 35px;
+            
         }
     }
 
