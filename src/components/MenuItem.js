@@ -6,7 +6,7 @@ export const ItemMenu = [
     } ,
   
     {
-      title: 'Product',
+      title: 'Trips',
       url: '#',
       cName : 'nav-link'
     } ,
@@ -14,6 +14,12 @@ export const ItemMenu = [
     {
       title: 'Contact',
       url: '#contact',
+      cName : 'nav-link'
+    } ,
+
+    {
+      title: 'Price',
+      url: '#price',
       cName : 'nav-link'
     } ,
   

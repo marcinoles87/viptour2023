@@ -4,15 +4,15 @@
     
 { "name" : "auschwitz" ,
     "cName" : "trip-card", 
-    "im"  : "img/czestocchowa.jpg" ,
+    "im"  : "img/auschwitz.jpg" ,
     "persone" : "4",
     "price" : "10 euro",
     "time" : "2h 30min"
 },
 
-{ "name" : "salt-mine" ,
+{ "name" : "energylandia" ,
 "cName" : "trip-card" ,
-"im"  : "img/zakopane.jpg" ,
+"im"  : "img/energy.jpg" ,
 "persone" : "4",
 "price" : "10 euro",
 "time" : "2h 30min"
