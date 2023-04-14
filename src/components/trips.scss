@@ -39,7 +39,6 @@ $gradient : linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
         height: 300px;
         width: 300px;
         transition: 0.6s ease;
-        overflow: hidden;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         
     }
@@ -55,7 +54,7 @@ $gradient : linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
     margin-top: 20px;
     display: flex;
     flex-direction: column;
-    width: 40vw;
+    width: 30vw;
     align-items: center;
 
     button{
