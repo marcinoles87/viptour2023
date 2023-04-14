@@ -24,7 +24,7 @@ export default class Trips extends React.Component {
 
     const handleOnBlur = () => {
       const im = document.querySelector('.trip-info')
-      im.classList.add('.colorRect')
+      im.classList.toggle('colorRect')
     }
     return (
       <div className='trips-wrapper'>
