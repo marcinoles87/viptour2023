@@ -11,17 +11,27 @@ $gradient : linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
 
     .news-info{
         margin:auto 100px;
+        height: 300px;
+
     }
 
 
     a{
+        margin-top: 20px;
         font-size: 30px;
         color: white;
         text-decoration: none;
-        transition: 0.7s ease;
+        transition: 0.8s ease;
+        border: 1px solid white;
+        border-radius: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        
     }
 
     a:hover{
+        color:rgb(48, 48, 182);
+        background-color: white;
         font-size: 35px;
         text-decoration: underline;
     }
@@ -29,6 +39,8 @@ $gradient : linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
     p{
         font-size: 25px;
     }
+
+   
    
 }
 
