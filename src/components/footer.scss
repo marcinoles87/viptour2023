@@ -28,6 +28,10 @@
         }
     }
 
+    h1{
+        font-size: 40px;
+    }
+
     a:hover{
         font-size: 35px;
         letter-spacing: 3px;
@@ -43,7 +47,7 @@
 
 .footer-wrapper{
     
-    height: 30vh;
+    height: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -62,6 +66,7 @@ ul {
         
         
         a{
+            font-size: 25px;
             color:white;
             text-decoration: none;
         }
