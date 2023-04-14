@@ -22,10 +22,7 @@ export default class Trips extends React.Component {
       )
     }
 
-    const handleOnBlur = () => {
-      const im = document.querySelector('.trip-info')
-      im.classList.toggle('colorRect')
-    }
+ 
     return (
       <div className='trips-wrapper'>
         <h1></h1>
@@ -33,7 +30,7 @@ export default class Trips extends React.Component {
             {JSONDATA && JSONDATA.map( (item , index) => 
             <div className='trip-info ' key={index}>
               <h1>{item.name}</h1>
-              <img src={item.im} alt="" onMouseOver={handleOnBlur}></img>
+              <img src={item.im} alt=""></img>
               <button onClick={handleOnClick} >Info</button>
               {this.state.cliked ?<div> <p>Price : {item.price} Persone :{item.persone} Trip Time : {item.time}</p> </div>: null }
              
