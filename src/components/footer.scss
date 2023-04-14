@@ -23,8 +23,14 @@
                 font-size: 30px;
                 color:white;
                 text-decoration: none;
+                transition: 0.7s ease;
             }
         }
+    }
+
+    a:hover{
+        font-size: 35px;
+        letter-spacing: 3px;
     }
     
     }
