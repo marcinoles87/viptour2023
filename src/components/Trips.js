@@ -32,7 +32,7 @@ export default class Trips extends React.Component {
               <h1>{item.name}</h1>
               <img src={item.im} alt=""></img>
               <button onClick={handleOnClick} >Info</button>
-              {this.state.cliked ?<div> <p>Price : {item.price} Persone :{item.persone} Trip Time : {item.time}</p> </div>: null }
+              {this.state.cliked ?<div className='trip-btn'> <p>Price : {item.price} Persone :{item.persone} Trip Time : {item.time}</p> </div>: null }
              
               </div>
             ) }
