@@ -34,6 +34,11 @@ $primary-color: rgb(37, 37, 87);
 
            
         }
+
+        .contact-message{
+            display: flex;
+            flex-direction: column;
+        }
     }
     
 }
