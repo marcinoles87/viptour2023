@@ -3,6 +3,10 @@ $gradient : linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
 
 @media (min-width : 401px){
 
+    .navDown{
+        opacity: 0.7;
+    }
+
     .nav-wrapper{
         
         position:fixed;
@@ -11,6 +15,7 @@ $gradient : linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
         flex-direction: row;
         flex-wrap: nowrap;
         height: auto;
+        opacity: 1;
 
        
     

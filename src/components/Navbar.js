@@ -11,7 +11,17 @@ export default class Navbar extends Component {
      cliked : false ,
      
   }
+
   render() {
+
+    const nav = document.getElementsByClassName('.nav-wrapper')
+    
+    
+    if(window.screenY > 150) {
+      nav.classList.add('.navDown')
+    }
+    
+
     return (
       <nav className='nav-wrapper'>
 
