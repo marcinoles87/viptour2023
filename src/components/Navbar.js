@@ -14,10 +14,14 @@ export default class Navbar extends Component {
 
   render() {
 
-    const nav = document.getElementsByClassName('.nav-wrapper')
+    const nav = document.querySelector('.nav-wrapper')
+    console.log(nav)
+
+    console.log(window.scrollY)
+
+    const scY = window.screenY
     
-    
-    if(window.screenY > 150) {
+    if(scY > 150) {
       nav.classList.add('.navDown')
     }
     
