@@ -17,8 +17,6 @@ $primary-color: rgb(37, 37, 87);
             align-items: center;
             justify-content:space-evenly;
             height: 70vh;
-            
-            
 
             a{
                 
@@ -27,13 +25,8 @@ $primary-color: rgb(37, 37, 87);
 
                 img{
                     width: 90%;
-                    height: 90%;
-                }
-
-            }
-
-           
-        }
+                    height: 90%; 
+                }} }
 
         .contact-message{
             display: flex;
@@ -45,6 +38,19 @@ $primary-color: rgb(37, 37, 87);
                 font-size: 30px;
                 margin: 10px;
             }
+
+            textarea{
+                width: 300px;
+                height: 200px;
+            }
+
+            button{
+                width: 100px;
+                height: 40px;
+                margin: 10px;
+            }
+
+            
         }
     }
     
