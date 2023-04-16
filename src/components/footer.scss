@@ -11,9 +11,7 @@
         background-repeat: none;
         background-clip: inherit;
 
-        .footer-list{
-            filter: blur(3px);
-        }
+      
     
     }
     
@@ -38,7 +36,7 @@
     }
 
     a:hover{
-        filter: blur(0);
+       
         font-size: 35px;
         letter-spacing: 3px;
     }
