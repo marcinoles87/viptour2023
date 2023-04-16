@@ -8,7 +8,7 @@ export default class Footer extends Component {
       
             <div className='footer-wrapper'>
                 <h1>Site Map</h1>
-                <ul>
+                <ul className='footer-list'>
                     <li><a href='#contact'>Main</a></li>
                     <li><a href='#contact'>About</a></li>
                     <li><a href='#contact'>Trips</a></li>
