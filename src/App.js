@@ -54,7 +54,7 @@ const handleData = () => {
 
 </div>
       
-      <Trips></Trips>
+    
       <Contact></Contact>
       <Footer></Footer>
     </div>
