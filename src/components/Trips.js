@@ -1,45 +1,34 @@
-import React, { Component } from 'react'
-
-import JSONDATA from '../data.json'
 
 import './trips.scss'
 
-export default class Trips extends React.Component {
+import React, { useState } from 'react'
 
-  state = [
-    {
-      cliked : false,
-    }
-  ]
+export default function Trips(props) {
 
-  render() {
+  let [cliked,setCliked] = useState(false)
+
 
     const handleOnClick = () => {
-      
-          this.setState({
-            cliked: !this.state.cliked
-          }
+      setCliked(
+        !cliked
       )
     }
 
- 
-    return (
-      <div className='trips-wrapper'>
-        <h1></h1>
-        <div className='trips-card'>
-            {JSONDATA && JSONDATA.map( (item , index) => 
-            <div className='trip-info ' key={index}>
-              <h1>{item.name}</h1>
-              <img src={item.im} alt=""></img>
-              <button onClick={handleOnClick} >Info</button>
-              {this.state.cliked ?<div className='trip-btn'> <p>Price : {item.price} Persone :{item.persone} Trip Time : {item.time}</p> </div>: null }
-             
-              </div>
-            ) }
-            
 
-        </div>
-      </div>
-    )
-  }
+  return (
+    <div className='trips-wrapper'>
+            
+            <div className='trips-card'>
+                <div className='trip-info '>
+                  <h1>{props.name}</h1>
+                  <img src={props.picture} alt=""></img>
+                 <button onClick={handleOnClick}>Show</button>
+                  {cliked ?<div className='trip-btn'> <p>Price : {props.price} Persone :{props.persone} Trip Time : {props.time}</p> </div>: null }
+                 
+                  </div>
+            </div>
+          </div>
+        )
+  
 }
+

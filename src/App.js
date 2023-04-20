@@ -19,7 +19,7 @@ let [datas , setData] = useState([])
 
 const handleData = () => {
   setData(
-    datas=DATA
+    DATA
   )
 }
 
@@ -30,12 +30,22 @@ const handleData = () => {
       <Navbar></Navbar>
       <Header></Header>
       <News></News>
-
+      <button onClick={handleData}><h1>Show trip</h1></button>
       {datas.map( (data,index) => {
-        
-        <Trips></Trips>
+        return(
+          <Trips key={index}
+           name={data.name} 
+           cName={data.cName}
+           picture={data.im}
+           persone={data.persone}
+           price={data.price}
+           time={data.time}
+
+          />
+        )
       })}
       
+      <Trips></Trips>
       <Contact></Contact>
       <Footer></Footer>
     </div>
