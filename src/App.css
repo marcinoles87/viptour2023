@@ -13,3 +13,14 @@ h1{
 p{
   text-align: center;
 }
+
+.trips-wrapper{
+ 
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+
+}

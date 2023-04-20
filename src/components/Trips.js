@@ -16,18 +16,17 @@ export default function Trips(props) {
 
 
   return (
-    <div className='trips-wrapper'>
-            
+   
             <div className='trips-card'>
                 <div className='trip-info '>
                   <h1>{props.name}</h1>
                   <img src={props.picture} alt=""></img>
-                 <button onClick={handleOnClick}>Show</button>
+                 <button onClick={handleOnClick}>Show Detail</button>
                   {cliked ?<div className='trip-btn'> <p>Price : {props.price} Persone :{props.persone} Trip Time : {props.time}</p> </div>: null }
                  
                   </div>
             </div>
-          </div>
+          
         )
   
 }

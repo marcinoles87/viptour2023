@@ -3,6 +3,16 @@ $gradient : linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
 
 @media (min-width : 401px){
 
+    .showTrip{
+        margin-top: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: blue;
+        align-items: center;
+    }
+
     .overlay {
         position: absolute;
         top: 0;

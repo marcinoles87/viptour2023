@@ -30,9 +30,15 @@ const handleData = () => {
       <Navbar></Navbar>
       <Header></Header>
       <News></News>
-      <button onClick={handleData}><h1>Show trip</h1></button>
+      <div className='showTrip'>
+      <h1>Now you see our trips...</h1>
+      <button onClick={handleData}>Show Trips</button>
+        </div>
+
+        <div className='trips-wrapper'>
       {datas.map( (data,index) => {
         return(
+          
           <Trips key={index}
            name={data.name} 
            cName={data.cName}
@@ -42,8 +48,11 @@ const handleData = () => {
            time={data.time}
 
           />
+      
         )
       })}
+
+</div>
       
       <Trips></Trips>
       <Contact></Contact>
