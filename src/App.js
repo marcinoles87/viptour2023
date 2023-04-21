@@ -35,7 +35,7 @@ const handleData = () => {
             <h1>Now you see our trips...</h1>
         </div>
 
-      <button onClick={handleData} className='show-btn'>Show Trips</button>
+      <button onClick={handleData} className='show-btn'><span>Show Trips</span></button>
         </div>
 
         <div className='trips-wrapper'>

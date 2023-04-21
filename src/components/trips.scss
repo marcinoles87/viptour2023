@@ -4,6 +4,7 @@ $gradient : linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
 @media (min-width : 401px){
 
     .show-trip{
+        width: 100vw;
         margin-top: 100px;
         display: flex;
         flex-direction: column;
@@ -14,26 +15,35 @@ $gradient : linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
         color:white;
 
         .show-trip-info{
+            width: 100vw;
+            height: 100vh;
             background-image: url(../img/cracow.jpg);
             background-position: top;
             background-repeat: no-repeat;
             background-attachment:fixed;
+            background-size: cover;
             filter: grayscale(1);
-            width: 100vw;
-            height: 80vh;
+            
         }
+
 
         h1{
             background-color: black;
         }
 
         .show-btn{
+            background-color: black;
+            color: white;
             position: absolute;
             margin: 10px;
-            width: 200px;
+            width: 100vw;
             font-size: 30px;
+            filter: opacity(0.6);
             
         }
+
+        
+      
     }
 
     .overlay {
