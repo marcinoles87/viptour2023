@@ -30,9 +30,9 @@ const handleData = () => {
       <Navbar></Navbar>
       <Header></Header>
       <News></News>
-      <div className='showTrip'>
+      <div className='show-trip'>
       <h1>Now you see our trips...</h1>
-      <button onClick={handleData}>Show Trips</button>
+      <button onClick={handleData} className='show-btn'>Show Trips</button>
         </div>
 
         <div className='trips-wrapper'>

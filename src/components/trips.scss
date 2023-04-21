@@ -3,14 +3,21 @@ $gradient : linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
 
 @media (min-width : 401px){
 
-    .showTrip{
+    .show-trip{
         margin-top: 200px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-color: blue;
+        background-color: rgb(0, 0, 72);
         align-items: center;
+        color:white;
+
+        .show-btn{
+            margin: 10px;
+            width: 200px;
+            
+        }
     }
 
     .overlay {
@@ -65,6 +72,10 @@ $gradient : linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
         transform: scale(1.5);
     }
     
+}
+
+.trip-primar-btn{
+    color:red;
 }
 
 .trip-info{
