@@ -26,6 +26,7 @@ $gradient : linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
             
         }
 
+      
 
         h1{
             background-color: black;
@@ -96,6 +97,7 @@ $gradient : linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
     img:hover{
         // transform: rotate(0);
         transform: scale(1.5);
+        filter: grayscale(1);
     }
     
 }

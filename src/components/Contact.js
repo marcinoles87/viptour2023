@@ -7,6 +7,9 @@
  import './contact.scss'
  
  export default class Contact extends Component {
+
+
+
    render() {
      return (
        <div className='contact-wrapper' id='contact'>
@@ -25,7 +28,7 @@
 
             <div className='contact-message'>
               <h1>Have a question :</h1>
-              <input type='text' placeholder='name'></input>
+              <input type='text' placeholder='name' ></input>
               <input type='email'placeholder='email'></input>
               <input type='message'placeholder='destination trip'></input>
               <input type='date' placeholder='choose date'></input>
