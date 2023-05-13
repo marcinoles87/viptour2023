@@ -6,10 +6,12 @@
         flex-direction: column;
         justify-content: center;
         text-align: center;
-        background-image: url('/img/footer.jpg');
+        background-image: url('/img/cracow_footer.jpg');
         background-position: center;
-        background-repeat: none;
-        background-clip: inherit;
+        background-repeat:no-repeat;
+        background-clip:inherit;
+        background-size: cover;
+        
 
     }
     
