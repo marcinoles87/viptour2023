@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/viptour2023/static/css/main.04a371b1.css",
+    "main.css": "/viptour2023/static/css/main.363eedd6.css",
     "main.js": "/viptour2023/static/js/main.a8bf1296.js",
     "static/js/787.ec365a85.chunk.js": "/viptour2023/static/js/787.ec365a85.chunk.js",
     "static/media/header.jpg": "/viptour2023/static/media/header.2d4f09f4689ec5cffe37.jpg",
     "static/media/cracow.jpg": "/viptour2023/static/media/cracow.58f97a7c9372652e24c0.jpg",
+    "static/media/cracow_footer.jpg": "/viptour2023/static/media/cracow_footer.e409ae589c516e81cc48.jpg",
     "static/media/footer.jpg": "/viptour2023/static/media/footer.0945cfd810a67a6e31bd.jpg",
     "static/media/logo.png": "/viptour2023/static/media/logo.9aa6527b005721e66fdf.png",
     "static/media/trip.jpg": "/viptour2023/static/media/trip.508a1399962b240c3e99.jpg",
     "static/media/faceLogo.png": "/viptour2023/static/media/faceLogo.258870af970e753c0d93.png",
     "index.html": "/viptour2023/index.html",
-    "main.04a371b1.css.map": "/viptour2023/static/css/main.04a371b1.css.map",
+    "main.363eedd6.css.map": "/viptour2023/static/css/main.363eedd6.css.map",
     "main.a8bf1296.js.map": "/viptour2023/static/js/main.a8bf1296.js.map",
     "787.ec365a85.chunk.js.map": "/viptour2023/static/js/787.ec365a85.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.04a371b1.css",
+    "static/css/main.363eedd6.css",
     "static/js/main.a8bf1296.js"
   ]
 }
