@@ -12,24 +12,32 @@
         background-clip:inherit;
         background-size: cover;
         
-
-    }
-    
-    ul {
+        h1{
+            color:white;
+        }
         
-        list-style: none;
-        
-        li{
+        ul {
+            background-color: rgba(0, 0, 0, 0.6);
+            color:white;
+            list-style: none;
             
             
-            a{
-                font-size: 30px;
-                color:white;
-                text-decoration: none;
-                transition: 0.7s ease;
+            li{
+                
+                
+                a{
+                    font-size: 30px;
+                    color:white;
+                    font-weight: 800;
+                    text-decoration: none;
+                    transition: 0.7s ease;
+                }
             }
         }
+
     }
+
+   
 
     h1{
         font-size: 40px;
