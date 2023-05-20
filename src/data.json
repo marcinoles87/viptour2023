@@ -4,7 +4,7 @@
     
 { "name" : "auschwitz" ,
     "cName" : "trip-card", 
-    "im"  : "./img/auschwitz.jpg" ,
+    "im"  : "./viptour2023/img/auschwitz.jpg" ,
     "persone" : "4",
     "price" : "10 euro",
     "time" : "2h 30min"
@@ -12,7 +12,7 @@
 
 { "name" : "energylandia" ,
 "cName" : "trip-card" ,
-"im"  : "img/energy.jpg",
+"im"  : "./viptour2023/img/energy.jpg",
 "persone" : "4",
 "price" : "10 euro",
 "time" : "2h 30min"
@@ -22,7 +22,7 @@
 
 { "name" : "zakopane" ,
 "cName" : "trip-card",
-"im"  : "img/zakopane.jpg" ,
+"im"  : "./viptour2023/img/zakopane.jpg" ,
 "persone" : "4",
 "price" : "5 euro",
 "time" : "2h "
@@ -31,7 +31,7 @@
 
 { "name" : "czestochowa" ,
 "cName" : "trip-card" ,
-"im"  : "img/czestocchowa.jpg" ,
+"im"  : "./viptour2023/img/czestocchowa.jpg" ,
 "persone" : "4",
 "price" : "10 euro",
 "time" : "2h 30min"
@@ -40,7 +40,7 @@
 
 { "name" : "Wieliczka" ,
 "cName" : "trip-card",
-"im"  : "img/zakopane.jpg" ,
+"im"  : "./viptour2023/img/zakopane.jpg" ,
 "persone" : "4",
 "price" : "5 euro",
 "time" : "2h "
@@ -51,7 +51,7 @@
 
 { "name" : "energylandia" ,
 "cName" : "trip-card" ,
-"im"  : "img/energy.jpg" ,
+"im"  : "./viptour2023/img/energy.jpg" ,
 "persone" : "4",
 "price" : "10 euro",
 "time" : "2h 30min"
