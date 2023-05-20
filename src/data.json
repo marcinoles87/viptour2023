@@ -4,7 +4,7 @@
     
 { "name" : "auschwitz" ,
     "cName" : "trip-card", 
-    "im"  : "img/auschwitz.jpg" ,
+    "im"  : "./img/auschwitz.jpg" ,
     "persone" : "4",
     "price" : "10 euro",
     "time" : "2h 30min"
@@ -12,7 +12,7 @@
 
 { "name" : "energylandia" ,
 "cName" : "trip-card" ,
-"im"  : "img/energy.jpg" ,
+"im"  : "img/energy.jpg",
 "persone" : "4",
 "price" : "10 euro",
 "time" : "2h 30min"
